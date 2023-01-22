@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Canvas</title>
+        <style >
+            body {background-image: url('main-bg.jpg')}
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <canvas id="myCanvas" width="600" height="200" style="border:3px solid #afd7f6;"></canvas>
+        <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.font = "40px Arial";
+            ctx.strokeText("Chaipot Rutamornchai",40,70);
+            ctx.strokeText("Sand",240,160);
+        </script>
+        <p style="font-size: 200%"><a href="Lab2.html">Home</a></p>
+		<p style="font-size: 200%;"><a href="video.html">Video</a></p>
+		<p style="font-size: 200%;"><a href="canvas.html">Canvas</a></p>
+        <p style="font-size: 200%;"><a href="form.html">Forms</a></p>
+    </body>
+</html>
